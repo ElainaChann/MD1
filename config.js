@@ -2,25 +2,25 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.owner = [
-  ['6285850539404'],
-  ['6285850539404'],
-  ['6285850539404', 'Owner', true]
+  ['6283830815715'],
+  ['6283830815715'],
+  ['6283830815715', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.fotonya1 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini kalo mau di ganti silahkan ganti aja
-global.fotonya2 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //gw lupa nih foto apa aja:v
-global.fotonya3 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini juga ganti
-global.fotonya4 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini juga ganti
-global.fotonya5 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini juga ganti
-global.fotonya6 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini ganti pakai foto sosialmedia mu
-global.fotonya7 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg'
-global.instagram = 'https://instagram.com/Jarotr_'
-global.dana = '085850539404'
-global.saweria = 'https://saweria.co/jarotoffc'
-global.pulsa = '085850539404'
-global.yt = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+global.fotonya1 = 'https://telegra.ph/file/769d9334815eb6dd4b7d5.jpg' //ini kalo mau di ganti silahkan ganti aja
+global.fotonya2 = 'https://telegra.ph/file/769d9334815eb6dd4b7d5.jpg' //gw lupa nih foto apa aja:v
+global.fotonya3 = 'https://telegra.ph/file/769d9334815eb6dd4b7d5.jpg' //ini juga ganti
+global.fotonya4 = 'https://telegra.ph/file/769d9334815eb6dd4b7d5.jpg' //ini juga ganti
+global.fotonya5 = 'https://telegra.ph/file/769d9334815eb6dd4b7d5.jpg' //ini juga ganti
+global.fotonya6 = 'https://telegra.ph/file/769d9334815eb6dd4b7d5.jpg' //ini ganti pakai foto sosialmedia mu
+global.fotonya7 = 'https://telegra.ph/file/769d9334815eb6dd4b7d5.jpg'
+global.instagram = 'https'
+global.dana = '085784914140'
+global.saweria = 'https'
+global.pulsa = '083830815715'
+global.yt = 'yt'
 global.mods = [] // Want some help?
-global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERBULAN Rp 15.000\nMAKSIMAL 2 GRUP\n》2 BULAN 25.000\nMAKSIMAL 3 GRUP \n》3 BULAN Rp 40.000\nMAKSIMAL 2 GRUP'
+global.price1 = 'Sewa? 5k Permanen'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -54,8 +54,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '@𝐎𝐒𝐂𝐀𝐑-𝐌𝐃'
-  var sticker_author = '𝐎𝐬𝐜𝐚𝐫'
+  var sticker_name = '@ElainaaEmde'
+  var sticker_author = 'Whatsapp Bot'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
