@@ -9,10 +9,7 @@ let anu = `Hallo mypren 👋
 ━━━〔 ıll *Sewa Bot* llı 〕━━ꕥ
 ━━━━━━━━━━━━━━━━━━━━
 ━━━〔 ıll *HARGA* llı 〕━━ꕥ
-⬡ *1 BULAN:* *15.000*
-⬡ *2 BULAN:* *25.000*
-⬡ *1 BULAN 2/3 GRUP:* *20.000*
-⬡ *lebih dari 3 tambah +5.000*
+⬡ *5K Permanen* = 1 Group
 ┗━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
@@ -28,13 +25,14 @@ Jika anda berminat hubungi nomor di bawah!!
 Terimakasih yang sudah mendonasikan untuk bot
 
 Contact person Sewa Bot:
-wa.me/${6285850539404} (Owner)
+wa.me/${6283830815715} (Owner)
 
-*Follow Instagram ku juga kak😼*`
+*Untuk Menerima Informasi Join Ke GC Bot*`
   conn.send3ButtonImg(m.chat, fla + teks, anu, instagram, 'Pilihan Store', '.pilihanstore', 'Owner', '.owner', 'Menu', '.menu', m) 
 }
 handler.help = ['sewaoscar']
 handler.tags = ['info']
 handler.command = /^(sewa|sewaoscar|sewa|sewabot)$/i
+handler.group = true
 
 module.exports = handler
