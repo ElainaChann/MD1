@@ -61,7 +61,7 @@ const defaultMenu = {
   header: '╔═❖〔 %category 〕❖════╗\n┃',
   body: '┃➺ %cmd %islimit %isPremium',
   footer: '┃\n╚══════════❖\n', 
-  after: `*Made by ♡*
+  after: `*Made by 𝐓𝐚𝐬𝐲𝐚𝐚*
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
@@ -166,8 +166,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendButton(m.chat, text.trim(), 'Made with ♡ by ࿐ᴹʳ 𝐉𝐚𝐫𝐨𝐭 𝐎𝐟𝐟𝐜 ࿐', null, [['Donasi', '.donasi'],['Owner', '.owner']], m)
-    /*conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', 'Website', '', '', [
+    conn.sendButton(m.chat, text.trim(), 'Made with ♡ by Tasyaa', null, [['Donasi', '.donasi'],['Owner', '.owner']], m)
+    /*conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://chat.whatsapp.com/IL34QSFDRT7LyAWiicXpBp', 'Website', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
@@ -184,13 +184,13 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '【𝙔𝙤𝙪𝙩𝙪𝙗𝙚⛽】',
-                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+                                    displayText: '【Group⛽】',
+                                    url: 'https://chat.whatsapp.com/IL34QSFDRT7LyAWiicXpBp'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '【𝙎𝙘𝙧𝙞𝙥𝙩🎗️】',
-                                    id: '/sc'
+                                    displayText: '【Gatau🎗️】',
+                                    id: '/play Asede kontol'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -215,6 +215,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 handler.help = ['menu2']
 handler.tags = ['main']
 handler.command = /^(menu2|allmenu2|\?)$/i
+handler.group = true
 
 handler.exp = 3
 
