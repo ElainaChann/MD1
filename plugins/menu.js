@@ -55,8 +55,7 @@ const defaultMenu = {
 ┆⬡ *Limit* : Ⓛ 
 ┆⬡ *Premium* : Ⓟ
 ┆⬡ *Uptime:* : %uptime (%muptime)
-┆⬡ *Run Bot* : Okteto/heroku
-┆⬡ *Ig Owner* : instagram.com/oscarbotz_
+┆⬡ *Run Bot* : Rdp
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
@@ -170,7 +169,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       ['Sewa Bot🌟', '/sewa'],
       ['Owner🌟', '/owner']
     ], m)*/
-    let url = `https://telegra.ph/file/054b6fe59958df5ad6b1f.jpg`.trim()
+    let url = `https://telegra.ph/file/769d9334815eb6dd4b7d5.jpg`.trim()
     let res = await fetch(url)
     let buffer = await res.buffer()
     let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
@@ -179,17 +178,17 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'                『 𝑱𝑨𝑹𝑶𝑻 𝑶𝑭𝑭𝑪 』',
+                            hydratedFooterText:'                『 Elainaa 』',
                             hydratedButtons: [{
                               urlButton: {
-                                    displayText: '𝙂𝙧𝙤𝙪𝙥 🌏',
-                                    url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+                                    displayText: 'Group 🌏',
+                                    url: 'https://chat.whatsapp.com/IL34QSFDRT7LyAWiicXpBp'
                                 }
                                 
                             }, {
                               urlButton: {
-                                    displayText: '𝙔𝙤𝙪𝙏𝙪𝙗𝙚 📺',
-                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+                                    displayText: 'Gatau 📺',
+                                    url: '/play asede kontol'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -219,6 +218,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 handler.help = ['allmenu']
 handler.tags = ['main']
 handler.command = /^(allmenu|help|\?)$/i
+handler.group = true
 
 handler.exp = 3
 
