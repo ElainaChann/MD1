@@ -72,7 +72,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = '©𝐎𝐒𝐂𝐀𝐑-𝐌𝐝'
+global.wm = '©ELAINA-MD'
 
 global.anu = 'https://telegra.ph/file/054b6fe59958df5ad6b1f.jpg'
 
