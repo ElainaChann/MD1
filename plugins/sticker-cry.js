@@ -13,5 +13,6 @@ handler.help = ['stickercry']
 handler.tags = ['sticker']
 handler.command = /^cryy|stickercry|stikercry$/i
 handler.limit = true
+handler.group = true
 
 module.exports = handler
